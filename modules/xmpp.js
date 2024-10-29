@@ -45,12 +45,8 @@ Xmpp = function(freepbx) {
 
 		socket.on("login", function(data) {
 			var query = freepbx.db.query("SELECT x.*, o.value as host FROM xmpp_options o, xmpp_users x, ucp_sessions s WHERE x.user = s.uid AND o.keyword = 'domain' AND s.session = '" + suppliedToken + "'");
-			query.on('result', function(res) {
-				res.on("data", function(row) {
+			query.on('result', function(row) {
 					user = row;
-				}).on('end', function() {
-
-				});
 			}).on("end", function() {
 				var username,password;
 				if (user !== null) {
