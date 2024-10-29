@@ -1,0 +1,1865 @@
+[npm-cache] [INFO] using /var/lib/asterisk/.package_cache as cache directory
+[npm-cache] [INFO] [composer] Dependency config file /var/www/html/admin/modules/ucp/node/composer.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] config file exists
+[npm-cache] [INFO] [npm] cli exists
+[npm-cache] [INFO] [npm] hash of /var/www/html/admin/modules/ucp/node/package.json: 0fb695afe6c74a03dc62736618ffc630
+[npm-cache] [INFO] [npm] running [npm install]...
+npm WARN deprecated ini@1.3.4: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated node-uuid@1.4.7: Use uuid module instead
+npm WARN deprecated q@1.4.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm WARN deprecated 
+npm WARN deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated node-xmpp-client@3.1.2: this package is deprecated please use https://www.npmjs.com/package/@xmpp/client
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated node-xmpp-core@5.0.9: this package is deprecated please use https://github.com/xmppjs/xmpp.js
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated node-xmpp-tls-connect@1.0.1: this package is deprecated please use https://github.com/xmppjs/xmpp.js
+
+> mariasql@0.2.6 install /var/www/html/admin/modules/ucp/node/node_modules/mariasql
+> node-gyp rebuild
+
+make: Entering directory '/var/www/html/admin/modules/ucp/node/node_modules/mariasql/build'
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aes.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aestables.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/algebra.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/arc4.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/asn.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/bftables.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.o
+../deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.cpp: In member function 'void TaoCrypt::Blowfish::SetKey(const byte*, TaoCrypt::word32, TaoCrypt::CipherDir)':
+../deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.cpp:93:10: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   93 |     else if (keylength > 56)
+      |          ^~
+../deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.cpp:96:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   96 |         unsigned i, j=0, k;
+      |         ^~~~~~~~
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/coding.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/des.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dh.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dsa.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/file.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hash.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hc128.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/integer.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md2.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md4.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md5.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/misc.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rabbit.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/random.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/ripemd.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rsa.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/sha.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/tftables.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.o
+../deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.cpp: In static member function 'static TaoCrypt::word32 TaoCrypt::Twofish::h0(TaoCrypt::word32, const word32*, unsigned int)':
+../deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.cpp:127:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  127 |         case 4: x = Q(1, 0, 0, 1, x) ^ key[6];
+      |                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.cpp:128:9: note: here
+  128 |         case 3: x = Q(1, 1, 0, 0, x) ^ key[4];
+      |         ^~~~
+../deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.cpp:128:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  128 |         case 3: x = Q(1, 1, 0, 0, x) ^ key[4];
+      |                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.cpp:129:9: note: here
+  129 |         case 2: x = Q(0, 1, 0, 1, x) ^ key[2];
+      |         ^~~~
+  AR(target) Release/obj.target/deps/libmariadbclient/extra/yassl/taocrypt/taocrypt.a
+  COPY Release/taocrypt.a
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/buffer.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/cert_wrapper.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/crypto_wrapper.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/handshake.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/lock.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/log.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/socket_wrapper.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/ssl.o
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp: In function 'int yaSSL::SSL_connect(yaSSL::SSL*)':
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:298:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  298 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:301:5: note: here
+  301 |     case CLIENT_HELLO_SENT :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:312:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  312 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:315:5: note: here
+  315 |     case FIRST_REPLY_DONE :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:329:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  329 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:332:5: note: here
+  332 |     case FINISHED_DONE :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:338:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  338 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:341:5: note: here
+  341 |     case SECOND_REPLY_DONE :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp: In function 'int yaSSL::SSL_accept(yaSSL::SSL*)':
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:388:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  388 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:391:5: note: here
+  391 |     case ACCEPT_FIRST_REPLY_DONE :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:407:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  407 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:410:5: note: here
+  410 |     case SERVER_HELLO_DONE :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:417:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  417 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:420:5: note: here
+  420 |     case ACCEPT_SECOND_REPLY_DONE :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:425:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  425 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:428:5: note: here
+  428 |     case ACCEPT_FINISHED_DONE :
+      |     ^~~~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:435:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  435 |         if (!ssl->GetError())
+      |         ^~
+../deps/libmariadbclient/extra/yassl/src/ssl.cpp:438:5: note: here
+  438 |     case ACCEPT_THIRD_REPLY_DONE :
+      |     ^~~~
+In file included from /usr/include/string.h:535,
+                 from ../deps/libmariadbclient/extra/yassl/taocrypt/include/misc.hpp:27,
+                 from ../deps/libmariadbclient/extra/yassl/taocrypt/include/asn.hpp:27,
+                 from ../deps/libmariadbclient/extra/yassl/include/cert_wrapper.hpp:36,
+                 from ../deps/libmariadbclient/extra/yassl/include/yassl_int.hpp:31,
+                 from ../deps/libmariadbclient/extra/yassl/src/ssl.cpp:34:
+In function 'char* strncat(char*, const char*, size_t)',
+    inlined from 'int yaSSL::SSL_CTX_load_verify_locations(yaSSL::SSL_CTX*, const char*, const char*)' at ../deps/libmariadbclient/extra/yassl/src/ssl.cpp:822:20:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:138:34: warning: 'char* __builtin___strncat_chk(char*, const char*, long unsigned int, long unsigned int)' output may be truncated copying 128 bytes from a string of length 255 [-Wstringop-truncation]
+  138 |   return __builtin___strncat_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+  139 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/timer.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_error.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_imp.o
+In file included from /usr/include/string.h:535,
+                 from ../deps/libmariadbclient/extra/yassl/taocrypt/include/misc.hpp:27,
+                 from ../deps/libmariadbclient/extra/yassl/taocrypt/include/asn.hpp:27,
+                 from ../deps/libmariadbclient/extra/yassl/include/cert_wrapper.hpp:36,
+                 from ../deps/libmariadbclient/extra/yassl/include/yassl_int.hpp:31,
+                 from ../deps/libmariadbclient/extra/yassl/src/yassl_imp.cpp:23:
+In function 'char* strncpy(char*, const char*, size_t)',
+    inlined from 'void yaSSL::Parameters::SetCipherNames()' at ../deps/libmariadbclient/extra/yassl/src/yassl_imp.cpp:628:16:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: 'char* __builtin_strncpy(char*, const char*, long unsigned int)' specified bound depends on the length of the source argument [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+../deps/libmariadbclient/extra/yassl/src/yassl_imp.cpp: In member function 'void yaSSL::Parameters::SetCipherNames()':
+../deps/libmariadbclient/extra/yassl/src/yassl_imp.cpp:627:28: note: length computed here
+  627 |         size_t len = strlen(cipher_names[index]) + 1;
+      |                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_int.o
+  AR(target) Release/obj.target/deps/libmariadbclient/extra/yassl/yassl.a
+  COPY Release/yassl.a
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client.o
+../deps/libmariadbclient/sql-common/client.c: In function 'mysql_read_default_options':
+../deps/libmariadbclient/sql-common/client.c:1320:29: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1320 |           options->protocol = MYSQL_PROTOCOL_PIPE;
+      |           ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+../deps/libmariadbclient/sql-common/client.c:1321:9: note: here
+ 1321 |         case OPT_connect_timeout:
+      |         ^~~~
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client_plugin.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/mysql_async.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/my_time.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/pack.o
+  CXX(target) Release/obj.target/clientlib/deps/libmariadbclient/sql/net_serv.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql/password.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/libmysql/errmsg.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/libmysql/libmysql.o
+  AR(target) Release/obj.target/deps/libmariadbclient/libmysql/clientlib.a
+  COPY Release/clientlib.a
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/array.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/charset-def.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/charset.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/errors.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/hash.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/list.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_arr_appstr.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_dirname.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_fn_ext.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_format.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_loadpath.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_pack.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_path.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_qsort.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_unixpath.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_wcomp.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mulalloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_access.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_alloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_compress.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_context.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_default.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_div.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_error.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fopen.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fstream.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getsystime.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getwd.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_init.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_lib.o
+../deps/libmariadbclient/mysys/my_lib.c: In function 'my_dir':
+../deps/libmariadbclient/mysys/my_lib.c:144:3: warning: 'readdir_r' is deprecated [-Wdeprecated-declarations]
+  144 |   while (!(READDIR(dirp,(struct dirent*) dirent_tmp,dp)))
+      |   ^~~~~
+In file included from /usr/include/features.h:486,
+                 from /usr/include/pthread.h:21,
+                 from ../deps/libmariadbclient/include/my_global.h:296,
+                 from ../deps/libmariadbclient/mysys/mysys_priv.h:19,
+                 from ../deps/libmariadbclient/mysys/my_lib.c:19:
+/usr/include/dirent.h:189:12: note: declared here
+  189 | extern int __REDIRECT (readdir_r,
+      |            ^~~~~~~~~~
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_malloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_mess.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_once.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_open.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_pthread.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_read.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_seek.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_static.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_symlink.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_thr_init.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_write.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/safemalloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/string.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/thr_mutex.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/typelib.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_sync.o
+  AR(target) Release/obj.target/deps/libmariadbclient/mysys/mysys.a
+  COPY Release/mysys.a
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_aes.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_md5.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_rnd.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha1.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha2.o
+  AR(target) Release/obj.target/deps/libmariadbclient/mysys_ssl/mysys_ssl.a
+  COPY Release/mysys_ssl.a
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/bchange.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/bmove_upp.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-big5.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-bin.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-cp932.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-czech.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-eucjpms.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-euc_kr.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-extra.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gb2312.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gbk.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-latin1.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-mb.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-simple.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-sjis.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-tis620.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-uca.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ucs2.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ujis.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-utf8.o
+../deps/libmariadbclient/strings/ctype-utf8.c: In function 'my_uni_utf8_no_range':
+../deps/libmariadbclient/strings/ctype-utf8.c:5039:65: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 5039 |     case 3: r[2]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0x800;
+      |                                                              ~~~^~~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:5040:5: note: here
+ 5040 |     case 2: r[1]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0xc0;
+      |     ^~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:5040:65: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 5040 |     case 2: r[1]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0xc0;
+      |                                                              ~~~^~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:5041:5: note: here
+ 5041 |     case 1: r[0]= (uchar) wc;
+      |     ^~~~
+../deps/libmariadbclient/strings/ctype-utf8.c: In function 'my_wc_mb_utf8mb4_no_range':
+../deps/libmariadbclient/strings/ctype-utf8.c:7445:65: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 7445 |     case 4: r[3]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0x10000;
+      |                                                              ~~~^~~~~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7446:5: note: here
+ 7446 |     case 3: r[2]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0x800;
+      |     ^~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7446:65: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 7446 |     case 3: r[2]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0x800;
+      |                                                              ~~~^~~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7447:5: note: here
+ 7447 |     case 2: r[1]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0xc0;
+      |     ^~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7447:65: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 7447 |     case 2: r[1]= (uchar) (0x80 | (wc & 0x3f)); wc= wc >> 6; wc |= 0xc0;
+      |                                                              ~~~^~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7448:5: note: here
+ 7448 |     case 1: r[0]= (uchar) wc;
+      |     ^~~~
+../deps/libmariadbclient/strings/ctype-utf8.c: In function 'my_wc_mb_utf8mb4':
+../deps/libmariadbclient/strings/ctype-utf8.c:7413:67: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 7413 |     case 4: r[3] = (uchar) (0x80 | (wc & 0x3f)); wc = wc >> 6; wc |= 0x10000;
+      |                                                                ~~~^~~~~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7414:5: note: here
+ 7414 |     case 3: r[2] = (uchar) (0x80 | (wc & 0x3f)); wc = wc >> 6; wc |= 0x800;
+      |     ^~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7414:67: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 7414 |     case 3: r[2] = (uchar) (0x80 | (wc & 0x3f)); wc = wc >> 6; wc |= 0x800;
+      |                                                                ~~~^~~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7415:5: note: here
+ 7415 |     case 2: r[1] = (uchar) (0x80 | (wc & 0x3f)); wc = wc >> 6; wc |= 0xc0;
+      |     ^~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7415:67: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 7415 |     case 2: r[1] = (uchar) (0x80 | (wc & 0x3f)); wc = wc >> 6; wc |= 0xc0;
+      |                                                                ~~~^~~~~~~
+../deps/libmariadbclient/strings/ctype-utf8.c:7416:5: note: here
+ 7416 |     case 1: r[0] = (uchar) wc;
+      |     ^~~~
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-win1250ch.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/dtoa.o
+../deps/libmariadbclient/strings/dtoa.c: In function 'dtoa':
+../deps/libmariadbclient/strings/dtoa.c:2362:14: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2362 |     leftright= 0;
+      |     ~~~~~~~~~^~~
+../deps/libmariadbclient/strings/dtoa.c:2364:3: note: here
+ 2364 |   case 4:
+      |   ^~~~
+../deps/libmariadbclient/strings/dtoa.c:2370:14: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2370 |     leftright= 0;
+      |     ~~~~~~~~~^~~
+../deps/libmariadbclient/strings/dtoa.c:2372:3: note: here
+ 2372 |   case 5:
+      |   ^~~~
+../deps/libmariadbclient/strings/dtoa.c: In function 'my_strtod_int':
+../deps/libmariadbclient/strings/dtoa.c:1379:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1379 |       sign= 1;
+      |       ~~~~^~~
+../deps/libmariadbclient/strings/dtoa.c:1381:5: note: here
+ 1381 |     case '+':
+      |     ^~~~
+../deps/libmariadbclient/strings/dtoa.c:1469:14: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1469 |         esign= 1;
+      |         ~~~~~^~~
+../deps/libmariadbclient/strings/dtoa.c:1470:7: note: here
+ 1470 |       case '+':
+      |       ^~~~
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/int2str.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/is_prefix.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/llstr.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/longlong2str.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/my_strtoll10.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/my_vsnprintf.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/str2int.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strcend.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strcont.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strend.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strfill.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strmake.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strmov_overlapp.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strnmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strxmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strxnmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/str_alloc.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/xml.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strnlen.o
+  AR(target) Release/obj.target/deps/libmariadbclient/strings/strings.a
+  COPY Release/strings.a
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/vio.o
+../deps/libmariadbclient/vio/vio.c: In function 'vio_end':
+../deps/libmariadbclient/vio/vio.c:389:3: warning: implicit declaration of function 'yaSSL_CleanUp' [-Wimplicit-function-declaration]
+  389 |   yaSSL_CleanUp();
+      |   ^~~~~~~~~~~~~
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viopipe.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/vioshm.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viosocket.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viossl.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viosslfactories.o
+  AR(target) Release/obj.target/deps/libmariadbclient/vio/vio.a
+  COPY Release/vio.a
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/adler32.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/compress.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/crc32.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/deflate.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzclose.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzlib.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzread.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzwrite.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/infback.o
+../deps/libmariadbclient/zlib/infback.c: In function 'inflateBack':
+../deps/libmariadbclient/zlib/infback.c:479:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  479 |             state->mode = LEN;
+      |             ~~~~~~~~~~~~^~~~~
+../deps/libmariadbclient/zlib/infback.c:481:9: note: here
+  481 |         case LEN:
+      |         ^~~~
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/inffast.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/inflate.o
+../deps/libmariadbclient/zlib/inflate.c: In function 'inflateMark':
+../deps/libmariadbclient/zlib/inflate.c:1507:61: warning: left shift of negative value [-Wshift-negative-value]
+ 1507 |     if (strm == Z_NULL || strm->state == Z_NULL) return -1L << 16;
+      |                                                             ^~
+../deps/libmariadbclient/zlib/inflate.c: In function 'inflate':
+../deps/libmariadbclient/zlib/inflate.c:720:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  720 |             state->mode = EXLEN;
+      |             ~~~~~~~~~~~~^~~~~~~
+../deps/libmariadbclient/zlib/inflate.c:721:9: note: here
+  721 |         case EXLEN:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:732:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  732 |             state->mode = EXTRA;
+      |             ~~~~~~~~~~~~^~~~~~~
+../deps/libmariadbclient/zlib/inflate.c:733:9: note: here
+  733 |         case EXTRA:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:754:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  754 |             state->mode = NAME;
+      |             ~~~~~~~~~~~~^~~~~~
+../deps/libmariadbclient/zlib/inflate.c:755:9: note: here
+  755 |         case NAME:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:775:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  775 |             state->mode = COMMENT;
+      |             ~~~~~~~~~~~~^~~~~~~~~
+../deps/libmariadbclient/zlib/inflate.c:776:9: note: here
+  776 |         case COMMENT:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:795:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  795 |             state->mode = HCRC;
+      |             ~~~~~~~~~~~~^~~~~~
+../deps/libmariadbclient/zlib/inflate.c:796:9: note: here
+  796 |         case HCRC:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:818:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  818 |             state->mode = DICT;
+      |             ~~~~~~~~~~~~^~~~~~
+../deps/libmariadbclient/zlib/inflate.c:819:9: note: here
+  819 |         case DICT:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:825:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  825 |             state->mode = TYPE;
+      |             ~~~~~~~~~~~~^~~~~~
+../deps/libmariadbclient/zlib/inflate.c:826:9: note: here
+  826 |         case TYPE:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:827:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  827 |             if (flush == Z_BLOCK || flush == Z_TREES) goto inf_leave;
+      |                ^
+../deps/libmariadbclient/zlib/inflate.c:828:9: note: here
+  828 |         case TYPEDO:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:877:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  877 |             if (flush == Z_TREES) goto inf_leave;
+      |                ^
+../deps/libmariadbclient/zlib/inflate.c:878:9: note: here
+  878 |         case COPY_:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:879:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  879 |             state->mode = COPY;
+      |             ~~~~~~~~~~~~^~~~~~
+../deps/libmariadbclient/zlib/inflate.c:880:9: note: here
+  880 |         case COPY:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1018:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1018 |             if (flush == Z_TREES) goto inf_leave;
+      |                ^
+../deps/libmariadbclient/zlib/inflate.c:1019:9: note: here
+ 1019 |         case LEN_:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1020:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1020 |             state->mode = LEN;
+      |             ~~~~~~~~~~~~^~~~~
+../deps/libmariadbclient/zlib/inflate.c:1021:9: note: here
+ 1021 |         case LEN:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1069:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1069 |             state->mode = LENEXT;
+      |             ~~~~~~~~~~~~^~~~~~~~
+../deps/libmariadbclient/zlib/inflate.c:1070:9: note: here
+ 1070 |         case LENEXT:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1079:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1079 |             state->mode = DIST;
+      |             ~~~~~~~~~~~~^~~~~~
+../deps/libmariadbclient/zlib/inflate.c:1080:9: note: here
+ 1080 |         case DIST:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1106:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1106 |             state->mode = DISTEXT;
+      |             ~~~~~~~~~~~~^~~~~~~~~
+../deps/libmariadbclient/zlib/inflate.c:1107:9: note: here
+ 1107 |         case DISTEXT:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1122:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1122 |             state->mode = MATCH;
+      |             ~~~~~~~~~~~~^~~~~~~
+../deps/libmariadbclient/zlib/inflate.c:1123:9: note: here
+ 1123 |         case MATCH:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1197:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1197 |             state->mode = LENGTH;
+      |             ~~~~~~~~~~~~^~~~~~~~
+../deps/libmariadbclient/zlib/inflate.c:1198:9: note: here
+ 1198 |         case LENGTH:
+      |         ^~~~
+../deps/libmariadbclient/zlib/inflate.c:1210:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1210 |             state->mode = DONE;
+      |             ~~~~~~~~~~~~^~~~~~
+../deps/libmariadbclient/zlib/inflate.c:1211:9: note: here
+ 1211 |         case DONE:
+      |         ^~~~
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/inftrees.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/trees.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/uncompr.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/zutil.o
+  AR(target) Release/obj.target/deps/libmariadbclient/zlib/zlib.a
+  COPY Release/zlib.a
+  CXX(target) Release/obj.target/sqlclient/src/binding.o
+../src/binding.cc:6: warning: "__STDC_FORMAT_MACROS" redefined
+    6 | # define __STDC_FORMAT_MACROS
+      | 
+<command-line>: note: this is the location of the previous definition
+../src/binding.cc:1647:28: error: 'Handle' has not been declared
+ 1647 |     static void Initialize(Handle<Object> target) {
+      |                            ^~~~~~
+../src/binding.cc:1647:34: error: expected ',' or '...' before '<' token
+ 1647 |     static void Initialize(Handle<Object> target) {
+      |                                  ^
+../src/binding.cc: In static member function 'static void Client::cb_close(uv_handle_t*)':
+../src/binding.cc:975:25: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+  975 |       obj->onclose->Call(Nan::New<Object>(obj->context), 0, nullptr);
+      |       ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_connect()':
+../src/binding.cc:1007:22: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1007 |       onconnect->Call(Nan::New<Object>(context), 0, nullptr);
+      |       ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_error(bool, unsigned int, const char*)':
+../src/binding.cc:1033:70: error: no matching function for call to 'v8::Value::ToObject()'
+ 1033 |           Nan::Error(errMsg ? errMsg : mysql_error(&mysql))->ToObject();
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note: candidate: 'v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const'
+ 2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1034:15: error: no matching function for call to 'v8::Object::Set(v8::Local<v8::String>, Nan::imp::IntegerFactory<v8::Integer>::return_t)'
+ 1034 |       err->Set(Nan::New<String>(code_symbol), Nan::New<Integer>(errCode));
+      |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1040:20: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1040 |       onerror->Call(Nan::New<Object>(context), 1, argv);
+      |       ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_row()':
+../src/binding.cc:1081:17: error: no matching function for call to 'v8::Array::Set(unsigned int&, v8::Local<v8::Value>&)'
+ 1081 |         row->Set(f, field_value);
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1087:18: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1087 |       onrow->Call(Nan::New<Object>(context), 1, argv);
+      |       ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_rows()':
+../src/binding.cc:1140:19: error: no matching function for call to 'v8::Array::Set(unsigned int&, v8::Local<v8::Value>&)'
+ 1140 |           row->Set(f, field_value);
+      |           ~~~~~~~~^~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1142:18: error: no matching function for call to 'v8::Array::Set(uint64_t&, v8::Local<v8::Array>&)'
+ 1142 |         rows->Set(i, row);
+      |         ~~~~~~~~~^~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1148:18: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1148 |       onrow->Call(Nan::New<Object>(context), 1, argv);
+      |       ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_resultinfo(MYSQL_FIELD*, unsigned int)':
+../src/binding.cc:1186:26: error: no matching function for call to 'v8::Array::Set(unsigned int, v8::Local<v8::String>)'
+ 1186 |             metadata->Set(m++, Nan::New<String>(field.name).ToLocalChecked());
+      |             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1187:26: error: no matching function for call to 'v8::Array::Set(unsigned int, v8::Local<v8::String>)'
+ 1187 |             metadata->Set(m++,
+      |             ~~~~~~~~~~~~~^~~~~
+ 1188 |                           Nan::New<String>(field.org_name).ToLocalChecked());
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1189:26: error: no matching function for call to 'v8::Array::Set(unsigned int, v8::Local<v8::String>&)'
+ 1189 |             metadata->Set(m++, ret);
+      |             ~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1190:26: error: no matching function for call to 'v8::Array::Set(unsigned int, Nan::imp::IntegerFactory<v8::Integer>::return_t)'
+ 1190 |             metadata->Set(m++, Nan::New<Integer>(field.flags));
+      |             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1191:26: error: no matching function for call to 'v8::Array::Set(unsigned int, Nan::imp::IntegerFactory<v8::Integer>::return_t)'
+ 1191 |             metadata->Set(m++, Nan::New<Integer>(field.charsetnr));
+      |             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1192:26: error: no matching function for call to 'v8::Array::Set(unsigned int, v8::Local<v8::String>)'
+ 1192 |             metadata->Set(m++, Nan::New<String>(field.db).ToLocalChecked());
+      |             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1193:26: error: no matching function for call to 'v8::Array::Set(unsigned int, v8::Local<v8::String>)'
+ 1193 |             metadata->Set(m++, Nan::New<String>(field.table).ToLocalChecked());
+      |             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1194:26: error: no matching function for call to 'v8::Array::Set(unsigned int, v8::Local<v8::String>)'
+ 1194 |             metadata->Set(m++,
+      |             ~~~~~~~~~~~~~^~~~~
+ 1195 |                           Nan::New<String>(field.org_table).ToLocalChecked());
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1198:25: error: no matching function for call to 'v8::Array::Set(unsigned int&, v8::Local<v8::String>)'
+ 1198 |             columns->Set(f,
+      |             ~~~~~~~~~~~~^~~
+ 1199 |                          Nan::New<String>(field.name,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1200 |                                           field.name_length).ToLocalChecked());
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)'
+ 3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note: candidate: 'v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)'
+ 3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+      |                                     ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+../src/binding.cc:1207:27: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1207 |         onresultinfo->Call(Nan::New<Object>(context), 2, resinfo_argv);
+      |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_resultend()':
+../src/binding.cc:1240:23: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+ 1240 |       if (r <= 0 || r >= sizeof(u64_buf))
+      |                     ~~^~~~~~~~~~~~~~~~~~
+../src/binding.cc:1249:25: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+ 1249 |         if (r <= 0 || r >= sizeof(u64_buf))
+      |                       ~~^~~~~~~~~~~~~~~~~~
+../src/binding.cc:1256:23: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+ 1256 |       if (r <= 0 || r >= sizeof(u64_buf))
+      |                     ~~^~~~~~~~~~~~~~~~~~
+../src/binding.cc:1261:24: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1261 |       onresultend->Call(Nan::New<Object>(context), 3, argv);
+      |       ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_ping()':
+../src/binding.cc:1268:19: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1268 |       onping->Call(Nan::New<Object>(context), 0, nullptr);
+      |       ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'void Client::on_idle()':
+../src/binding.cc:1275:19: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated [-Wdeprecated-declarations]
+ 1275 |       onidle->Call(Nan::New<Object>(context), 0, nullptr);
+      |       ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../../nan/nan.h:1796:3: note: declared here
+ 1796 |   Call(v8::Local<v8::Object> target
+      |   ^~~~
+../src/binding.cc: In member function 'bool Client::apply_config(v8::Local<v8::Object>)':
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:138:3: note: in expansion of macro 'X'
+  138 |   X(user)                                                                      \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:139:3: note: in expansion of macro 'X'
+  139 |   X(password)                                                                  \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:140:3: note: in expansion of macro 'X'
+  140 |   X(host)                                                                      \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:141:3: note: in expansion of macro 'X'
+  141 |   X(port)                                                                      \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:142:3: note: in expansion of macro 'X'
+  142 |   X(unixSocket)                                                                \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:143:3: note: in expansion of macro 'X'
+  143 |   X(db)                                                                        \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:144:3: note: in expansion of macro 'X'
+  144 |   X(connTimeout)                                                               \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:145:3: note: in expansion of macro 'X'
+  145 |   X(secureAuth)                                                                \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:146:3: note: in expansion of macro 'X'
+  146 |   X(multiStatements)                                                           \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:147:3: note: in expansion of macro 'X'
+  147 |   X(compress)                                                                  \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:148:3: note: in expansion of macro 'X'
+  148 |   X(local_infile)                                                              \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:149:3: note: in expansion of macro 'X'
+  149 |   X(read_default_file)                                                         \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:150:3: note: in expansion of macro 'X'
+  150 |   X(read_default_group)                                                        \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:151:3: note: in expansion of macro 'X'
+  151 |   X(charset)                                                                   \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:152:3: note: in expansion of macro 'X'
+  152 |   X(tcpKeepalive)                                                              \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:153:3: note: in expansion of macro 'X'
+  153 |   X(tcpKeepaliveCnt)                                                           \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:154:3: note: in expansion of macro 'X'
+  154 |   X(tcpKeepaliveIntvl)                                                         \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:155:3: note: in expansion of macro 'X'
+  155 |   X(ssl)                                                                       \
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1293:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1293 |         cfg->Get(Nan::New<String>(cfg_##name##_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:156:3: note: in expansion of macro 'X'
+  156 |   X(protocol)
+      |   ^
+../src/binding.cc:1294:7: note: in expansion of macro 'CFG_OPTIONS'
+ 1294 |       CFG_OPTIONS
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1297:50: error: no matching function for call to 'v8::Value::ToString()'
+ 1297 |       if (!user_v->IsString() || user_v->ToString()->Length() == 0)
+      |                                  ~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1304:58: error: no matching function for call to 'v8::Value::ToString()'
+ 1304 |       if (!password_v->IsString() || password_v->ToString()->Length() == 0)
+      |                                      ~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1311:50: error: no matching function for call to 'v8::Value::ToString()'
+ 1311 |       if (!host_v->IsString() || host_v->ToString()->Length() == 0)
+      |                                  ~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1319:53: error: no matching function for call to 'v8::Value::Uint32Value()'
+ 1319 |       if (!port_v->IsUint32() || port_v->Uint32Value() == 0)
+      |                                  ~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note: candidate: 'v8::Maybe<unsigned int> v8::Value::Uint32Value(v8::Local<v8::Context>) const'
+ 2866 |   V8_WARN_UNUSED_RESULT Maybe<uint32_t> Uint32Value(
+      |                                         ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1322:42: error: no matching function for call to 'v8::Value::Uint32Value()'
+ 1322 |         config.port = port_v->Uint32Value();
+      |                       ~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note: candidate: 'v8::Maybe<unsigned int> v8::Value::Uint32Value(v8::Local<v8::Context>) const'
+ 2866 |   V8_WARN_UNUSED_RESULT Maybe<uint32_t> Uint32Value(
+      |                                         ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1326:62: error: no matching function for call to 'v8::Value::ToString()'
+ 1326 |       if (!unixSocket_v->IsString() || unixSocket_v->ToString()->Length() == 0)
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1334:57: error: no matching function for call to 'v8::Value::ToString()'
+ 1334 |       if (protocol_v->IsString() && protocol_v->ToString()->Length() > 0) {
+      |                                     ~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1349:45: error: no matching function for call to 'v8::Value::ToString()'
+ 1349 |       if (db_v->IsString() && db_v->ToString()->Length() > 0) {
+      |                               ~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1355:66: error: no matching function for call to 'v8::Value::Uint32Value()'
+ 1355 |       if (connTimeout_v->IsUint32() && connTimeout_v->Uint32Value() > 0)
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note: candidate: 'v8::Maybe<unsigned int> v8::Value::Uint32Value(v8::Local<v8::Context>) const'
+ 2866 |   V8_WARN_UNUSED_RESULT Maybe<uint32_t> Uint32Value(
+      |                                         ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1356:45: error: no matching function for call to 'v8::Value::Uint32Value()'
+ 1356 |         timeout = connTimeout_v->Uint32Value();
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note: candidate: 'v8::Maybe<unsigned int> v8::Value::Uint32Value(v8::Local<v8::Context>) const'
+ 2866 |   V8_WARN_UNUSED_RESULT Maybe<uint32_t> Uint32Value(
+      |                                         ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1359:67: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1359 |       if (!secureAuth_v->IsBoolean() || secureAuth_v->BooleanValue())
+      |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1364:76: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1364 |       if (multiStatements_v->IsBoolean() && multiStatements_v->BooleanValue())
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1367:62: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1367 |       if (compress_v->IsBoolean() && compress_v->BooleanValue())
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1370:70: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1370 |       if (local_infile_v->IsBoolean() && local_infile_v->BooleanValue())
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1374:43: error: no matching function for call to 'v8::Value::ToString()'
+ 1374 |           && read_default_file_v->ToString()->Length() > 0) {
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1381:44: error: no matching function for call to 'v8::Value::ToString()'
+ 1381 |           && read_default_group_v->ToString()->Length() > 0) {
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1388:51: error: no matching function for call to 'v8::Value::Uint32Value()'
+ 1388 |         config.tcpka = tcpKeepalive_v->Uint32Value();
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note: candidate: 'v8::Maybe<unsigned int> v8::Value::Uint32Value(v8::Local<v8::Context>) const'
+ 2866 |   V8_WARN_UNUSED_RESULT Maybe<uint32_t> Uint32Value(
+      |                                         ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1390:57: error: no matching function for call to 'v8::Value::Uint32Value()'
+ 1390 |         config.tcpkaCnt = tcpKeepaliveCnt_v->Uint32Value();
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note: candidate: 'v8::Maybe<unsigned int> v8::Value::Uint32Value(v8::Local<v8::Context>) const'
+ 2866 |   V8_WARN_UNUSED_RESULT Maybe<uint32_t> Uint32Value(
+      |                                         ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1392:61: error: no matching function for call to 'v8::Value::Uint32Value()'
+ 1392 |         config.tcpkaIntvl = tcpKeepaliveIntvl_v->Uint32Value();
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note: candidate: 'v8::Maybe<unsigned int> v8::Value::Uint32Value(v8::Local<v8::Context>) const'
+ 2866 |   V8_WARN_UNUSED_RESULT Maybe<uint32_t> Uint32Value(
+      |                                         ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2866:41: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1394:55: error: no matching function for call to 'v8::Value::ToString()'
+ 1394 |       if (charset_v->IsString() && charset_v->ToString()->Length() > 0) {
+      |                                    ~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1400:74: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1400 |       if (ssl_v->IsObject() || (ssl_v->IsBoolean() && ssl_v->BooleanValue())) {
+      |                                                       ~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1403:46: error: no matching function for call to 'v8::Value::ToObject()'
+ 1403 |           Local<Object> ssl = ssl_v->ToObject();
+      |                               ~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note: candidate: 'v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const'
+ 2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1406:23: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1406 |               ssl->Get(Nan::New<String>(cfg_##name##_symbol));
+      |               ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:158:3: note: in expansion of macro 'X'
+  158 |   X(key)                                                                       \
+      |   ^
+../src/binding.cc:1407:11: note: in expansion of macro 'CFG_OPTIONS_SSL'
+ 1407 |           CFG_OPTIONS_SSL
+      |           ^~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1406:23: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1406 |               ssl->Get(Nan::New<String>(cfg_##name##_symbol));
+      |               ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:159:3: note: in expansion of macro 'X'
+  159 |   X(cert)                                                                      \
+      |   ^
+../src/binding.cc:1407:11: note: in expansion of macro 'CFG_OPTIONS_SSL'
+ 1407 |           CFG_OPTIONS_SSL
+      |           ^~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1406:23: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1406 |               ssl->Get(Nan::New<String>(cfg_##name##_symbol));
+      |               ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:160:3: note: in expansion of macro 'X'
+  160 |   X(ca)                                                                        \
+      |   ^
+../src/binding.cc:1407:11: note: in expansion of macro 'CFG_OPTIONS_SSL'
+ 1407 |           CFG_OPTIONS_SSL
+      |           ^~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1406:23: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1406 |               ssl->Get(Nan::New<String>(cfg_##name##_symbol));
+      |               ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:161:3: note: in expansion of macro 'X'
+  161 |   X(capath)                                                                    \
+      |   ^
+../src/binding.cc:1407:11: note: in expansion of macro 'CFG_OPTIONS_SSL'
+ 1407 |           CFG_OPTIONS_SSL
+      |           ^~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1406:23: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1406 |               ssl->Get(Nan::New<String>(cfg_##name##_symbol));
+      |               ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:162:3: note: in expansion of macro 'X'
+  162 |   X(cipher)                                                                    \
+      |   ^
+../src/binding.cc:1407:11: note: in expansion of macro 'CFG_OPTIONS_SSL'
+ 1407 |           CFG_OPTIONS_SSL
+      |           ^~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1406:23: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1406 |               ssl->Get(Nan::New<String>(cfg_##name##_symbol));
+      |               ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:163:3: note: in expansion of macro 'X'
+  163 |   X(rejectUnauthorized)
+      |   ^
+../src/binding.cc:1407:11: note: in expansion of macro 'CFG_OPTIONS_SSL'
+ 1407 |           CFG_OPTIONS_SSL
+      |           ^~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1410:51: error: no matching function for call to 'v8::Value::ToString()'
+ 1410 |           if (key_v->IsString() && key_v->ToString()->Length() > 0) {
+      |                                    ~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1414:53: error: no matching function for call to 'v8::Value::ToString()'
+ 1414 |           if (cert_v->IsString() && cert_v->ToString()->Length() > 0) {
+      |                                     ~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1418:49: error: no matching function for call to 'v8::Value::ToString()'
+ 1418 |           if (ca_v->IsString() && ca_v->ToString()->Length() > 0) {
+      |                                   ~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1422:57: error: no matching function for call to 'v8::Value::ToString()'
+ 1422 |           if (capath_v->IsString() && capath_v->ToString()->Length() > 0) {
+      |                                       ~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1426:57: error: no matching function for call to 'v8::Value::ToString()'
+ 1426 |           if (cipher_v->IsString() && cipher_v->ToString()->Length() > 0) {
+      |                                       ~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note: candidate: 'v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const'
+ 2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1434:63: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1434 |                          && rejectUnauthorized_v->BooleanValue()
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc: In static member function 'static Nan::NAN_METHOD_RETURN_TYPE Client::New(Nan::NAN_METHOD_ARGS_TYPE)':
+../src/binding.cc:1465:44: error: no matching function for call to 'v8::Value::ToObject()'
+ 1465 |       Local<Object> cfg = info[0]->ToObject();
+      |                           ~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note: candidate: 'v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const'
+ 2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:102:3: note: in expansion of macro 'X'
+  102 |   X(connect)                                                                   \
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:103:3: note: in expansion of macro 'X'
+  103 |   X(error)                                                                     \
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:104:3: note: in expansion of macro 'X'
+  104 |   X(idle)                                                                      \
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:105:3: note: in expansion of macro 'X'
+  105 |   X(resultinfo)                                                                \
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:106:3: note: in expansion of macro 'X'
+  106 |   X(row)                                                                       \
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:107:3: note: in expansion of macro 'X'
+  107 |   X(resultend)                                                                 \
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:108:3: note: in expansion of macro 'X'
+  108 |   X(ping)                                                                      \
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1468:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1468 |         cfg->Get(Nan::New<String>(ev_##name##_symbol));                        \
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/binding.cc:109:3: note: in expansion of macro 'X'
+  109 |   X(close)
+      |   ^
+../src/binding.cc:1471:7: note: in expansion of macro 'EVENT_NAMES'
+ 1471 |       EVENT_NAMES
+      |       ^~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1474:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1474 |         cfg->Get(Nan::New<String>(context_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1476:17: error: no matching function for call to 'v8::Object::Get(v8::Local<v8::String>)'
+ 1476 |         cfg->Get(Nan::New<String>(conncfg_symbol));
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)'
+ 3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note: candidate: 'v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)'
+ 3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+      |                                           ^~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+../src/binding.cc:1485:47: error: no matching function for call to 'v8::Value::ToObject()'
+ 1485 |         obj->context.Reset(context_v->ToObject());
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note: candidate: 'v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const'
+ 2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1489:46: error: no matching function for call to 'v8::Value::ToObject()'
+ 1489 |         obj->apply_config(conncfg_v->ToObject());
+      |                           ~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note: candidate: 'v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const'
+ 2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc: In static member function 'static Nan::NAN_METHOD_RETURN_TYPE Client::SetConfig(Nan::NAN_METHOD_ARGS_TYPE)':
+../src/binding.cc:1500:46: error: no matching function for call to 'v8::Value::ToObject()'
+ 1500 |         Local<Object> cfg = info[0]->ToObject();
+      |                             ~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note: candidate: 'v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const'
+ 2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc: In static member function 'static Nan::NAN_METHOD_RETURN_TYPE Client::Connect(Nan::NAN_METHOD_ARGS_TYPE)':
+../src/binding.cc:1513:46: error: no matching function for call to 'v8::Value::ToObject()'
+ 1513 |         Local<Object> cfg = info[0]->ToObject();
+      |                             ~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note: candidate: 'v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const'
+ 2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+      |                                            ^~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc: In static member function 'static Nan::NAN_METHOD_RETURN_TYPE Client::LastInsertId(Nan::NAN_METHOD_ARGS_TYPE)':
+../src/binding.cc:1561:23: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+ 1561 |       if (r <= 0 || r >= sizeof(u64_buf))
+      |                     ~~^~~~~~~~~~~~~~~~~~
+../src/binding.cc: In static member function 'static Nan::NAN_METHOD_RETURN_TYPE Client::Query(Nan::NAN_METHOD_ARGS_TYPE)':
+../src/binding.cc:1594:41: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1594 |                    info[1]->BooleanValue(),
+      |                    ~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1595:41: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1595 |                    info[2]->BooleanValue(),
+      |                    ~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc:1596:41: error: no matching function for call to 'v8::Value::BooleanValue()'
+ 1596 |                    info[3]->BooleanValue());
+      |                    ~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note: candidate: 'bool v8::Value::BooleanValue(v8::Isolate*) const'
+ 2858 |   bool BooleanValue(Isolate* isolate) const;
+      |        ^~~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:2858:8: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc: In static member function 'static void Client::Initialize(int)':
+../src/binding.cc:1691:7: error: 'target' was not declared in this scope
+ 1691 |       target->Set(name, tpl->GetFunction());
+      |       ^~~~~~
+../src/binding.cc:1691:41: error: no matching function for call to 'v8::FunctionTemplate::GetFunction()'
+ 1691 |       target->Set(name, tpl->GetFunction());
+      |                         ~~~~~~~~~~~~~~~~^~
+In file included from /var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:67,
+                 from ../src/binding.cc:54:
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:6482:46: note: candidate: 'v8::MaybeLocal<v8::Function> v8::FunctionTemplate::GetFunction(v8::Local<v8::Context>)'
+ 6482 |   V8_WARN_UNUSED_RESULT MaybeLocal<Function> GetFunction(
+      |                                              ^~~~~~~~~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/v8.h:6482:46: note:   candidate expects 1 argument, 0 provided
+../src/binding.cc: At global scope:
+../src/binding.cc:1827:8: error: variable or field 'init' declared void
+ 1827 |   void init(Handle<Object> target) {
+      |        ^~~~
+../src/binding.cc:1827:13: error: 'Handle' was not declared in this scope
+ 1827 |   void init(Handle<Object> target) {
+      |             ^~~~~~
+../src/binding.cc:1827:26: error: expected primary-expression before '>' token
+ 1827 |   void init(Handle<Object> target) {
+      |                          ^
+../src/binding.cc:1827:28: error: 'target' was not declared in this scope
+ 1827 |   void init(Handle<Object> target) {
+      |                            ^~~~~~
+In file included from ../src/binding.cc:54:
+../src/binding.cc:1836:26: error: 'init' was not declared in this scope; did you mean 'int'?
+ 1836 |   NODE_MODULE(sqlclient, init);
+      |                          ^~~~
+/var/lib/asterisk/.cache/node-gyp/14.21.3/include/node/node.h:793:36: note: in definition of macro 'NODE_MODULE_X'
+  793 |       (node::addon_register_func) (regfunc),                          \
+      |                                    ^~~~~~~
+../src/binding.cc:1836:3: note: in expansion of macro 'NODE_MODULE'
+ 1836 |   NODE_MODULE(sqlclient, init);
+      |   ^~~~~~~~~~~
+In file included from ../src/binding.cc:56:
+../src/binding.cc:1713:19: warning: 'Nan::NAN_METHOD_RETURN_TYPE Version(Nan::NAN_METHOD_ARGS_TYPE)' defined but not used [-Wunused-function]
+ 1713 | static NAN_METHOD(Version) {
+      |                   ^~~~~~~
+../../nan/nan.h:1644:33: note: in definition of macro 'NAN_METHOD'
+ 1644 |     Nan::NAN_METHOD_RETURN_TYPE name(Nan::NAN_METHOD_ARGS_TYPE info)
+      |                                 ^~~~
+../src/binding.cc:1695:19: warning: 'Nan::NAN_METHOD_RETURN_TYPE Escape(Nan::NAN_METHOD_ARGS_TYPE)' defined but not used [-Wunused-function]
+ 1695 | static NAN_METHOD(Escape) {
+      |                   ^~~~~~
+../../nan/nan.h:1644:33: note: in definition of macro 'NAN_METHOD'
+ 1644 |     Nan::NAN_METHOD_RETURN_TYPE name(Nan::NAN_METHOD_ARGS_TYPE info)
+      |                                 ^~~~
+make: Leaving directory '/var/www/html/admin/modules/ucp/node/node_modules/mariasql/build'
+make: *** [sqlclient.target.mk:138: Release/obj.target/sqlclient/src/binding.o] Error 1
+gyp ERR! build error 
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:400:28)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:285:12)
+gyp ERR! System Linux 5.15.0-124-generic
+gyp ERR! command "/usr/bin/node" "/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /var/www/html/admin/modules/ucp/node/node_modules/mariasql
+gyp ERR! node -v v14.21.3
+gyp ERR! node-gyp -v v5.1.1
+gyp ERR! not ok 
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! mariasql@0.2.6 install: `node-gyp rebuild`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the mariasql@0.2.6 install script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/lib/asterisk/.npm/_logs/2024-10-28T23_00_47_228Z-debug.log
+[npm-cache] [ERROR] [npm] error running npm install
+[npm-cache] [ERROR] error installing dependencies
